@@ -1,0 +1,74 @@
+body,html{
+	width: 100%;
+	height: 100%;
+	box-sizing:border-box;
+}
+/*-- 大盒子 --*/
+#container{
+	width: 100%;
+	height: 100%;
+	background: #f0f2f5;
+}
+/*-- 主体 --*/
+.main{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+/*-- 头 --*/
+header{
+	width: 100%;
+	height: 3.65rem;
+	background: #00a652;
+	position: relative;
+}
+header #return{
+	width: 0.85rem;
+	height: 1.45rem;
+	background: url(../images/return_03.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 1.25rem;
+	left: 0.85rem;
+}
+header #card{
+	color: #fff;
+	font-size: 1.25rem;
+	position: absolute;
+	right: 0.85rem;
+	top: 1.25rem;
+}
+header h1{
+	width: 100%;
+	color: #fff;
+	font-weight: 500;
+	font-size: 1.5rem;
+	text-align: center;
+	line-height: 3.65rem;
+}
+/*-- 尾 --*/
+footer{
+	width: 100%;
+	height: 4.1rem;
+	background: #ffffff;
+	border-top: 1px solid #dddfe0;
+}
+footer a{
+	width: 25%;
+	display: block;
+	text-align: center;
+}
+footer a .page{
+	width: 100%;
+	height: 2.5rem;
+	padding-top: 0.3rem;
+}
+footer a .page i{
+	width: 2.25rem;
+	height: 1.75rem;
+	display: inline-block;
+}
+footer a .page i img{
+	width: 100%;
+	height:auto;
+}

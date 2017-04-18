@@ -1,0 +1,137 @@
+.mian-wrap {
+	padding-left: 0.85rem;
+	padding-right: 0.85rem;
+	padding-top: 0.9rem;
+}
+.mian-wrap ul {
+	width: 100%;
+}
+.mian-wrap ul .li-input {
+	width: 100%;
+	height: 3.85rem;
+	border: 1px solid #e1e2e3;
+	background: #fff;
+	margin-bottom: 0.9rem;
+	border-radius: 9px;
+}
+.mian-wrap ul .li-input .search {
+	width: 100%;
+	height: 3.7rem;
+	outline: none;
+	border: none;
+	border-radius: 9px;
+	background: url(../images/search_03.png) no-repeat left center;
+	text-indent: 4.5rem;
+	font-size: 1rem;
+}
+.mian-wrap ul .cardnumber {
+	width: 100%;
+	height: 9.85rem;
+	background: #fff;
+	border-radius: 9px;
+	border: 1px solid #e1e2e3;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 0.65rem;
+	margin-bottom: 0.9rem;
+}
+.mian-wrap ul .cardnumber .cardnumber-time {
+	justify-content:space-between;
+	width: 100%;
+	height: 5.1rem;
+	margin-bottom: 0.65rem;
+}
+.mian-wrap ul .cardnumber .cardnumber-time .time-div p {
+	color: #666666;
+	font-size: 1.25rem;
+	line-height: 2.55rem;
+}
+.mian-wrap ul .cardnumber .cardnumber-time .time-div span {
+	padding-left: 0.6rem;
+}
+.mian-wrap ul .cardnumber .cardnumber-time .time-sum p {
+	line-height: 2.55rem;
+	color: #999;
+	font-size: 0.9rem;
+	text-align: right;
+}
+.mian-wrap ul .cardnumber .cardnumber-time .time-sum h4 {
+	font-weight: 500;
+	color: #666666;
+	font-size: 1.25rem;
+	line-height: 2.55rem;
+}
+.mian-wrap ul .cardnumber .cardnumber-time .time-sum h4 span {
+	color: #fd3f51;
+	font-size: 1.2rem;
+	padding-left: 0.5rem;
+}
+.mian-wrap ul .cardnumber .report {
+	width: 100%;
+	flex-direction:row-reverse;
+	height:2.15rem;
+}
+.mian-wrap ul .cardnumber .report a {
+	display: block;
+	width: 4.55rem;
+	height: 2rem;
+	border: 1px solid #00a652;
+	border-radius: 9px;
+	margin-left: 1rem;
+	text-align: center;
+	line-height: 2rem;
+	color: #00a652;
+	font-size: 0.95rem;
+}
+
+/*-- 弹出层 --*/
+.dialog{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.3;
+	display: none;
+}
+
+.dialog-content{
+	padding-right: 3.65rem;
+	padding-left: 3.65rem;
+	width: 100%;
+	height: 11.6rem;
+	position: fixed;
+	margin:auto;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	display: none;
+}
+.dialog-content .dialog-popup{
+	width: 100%;
+	height: 11.65rem;
+	background: #fff;
+	border-radius: 6px;
+	padding: 1.65rem;
+}
+.dialog-content .dialog-popup #dialog-input{
+	width: 100%;
+	height: 3.1rem;
+	border: 1px solid #ececec;
+	text-align: center;
+	font-size: 1.2rem;
+	border-radius: 6px;
+	margin-bottom: 1.65rem;
+}
+.dialog-content .dialog-popup #dialog-button{
+	width: 100%;
+	height: 3.2rem;
+	background: #00a652;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-size: 1.2rem;
+	border-radius: 6px;
+}

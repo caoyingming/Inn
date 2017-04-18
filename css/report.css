@@ -1,0 +1,44 @@
+/*-- 主体 --*/
+.main{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+/*-- 充值 --*/
+.main .block-list{
+	width: 100%;
+	height:15rem;
+	background: #fff;
+	border-top: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	margin-bottom: 2.5rem;
+	padding: 1.05rem;
+}
+.main .block-list ul li{
+	line-height: 2.55rem;
+	font-size: 1.25rem;
+	color: #666666;
+}
+.main .block-list ul li .list-li{
+	width: 5.4rem;
+	display: inline-block;
+	margin-right: 0.5rem;
+}
+.main .block-list ul li .money{
+	color: #fd3f51;
+}
+/*-- 挂失 --*/
+.main .report{
+	width: 100%;
+	height: 4.3rem;
+	padding-left: 1.9rem;
+	padding-right: 1.9rem;
+}
+.main .report #btn{
+	width: 100%;
+	height: 4.3rem;
+	background: #00a652;
+	color: #fff;
+	font-size: 1.45rem;
+	border-radius: 6px;
+}
